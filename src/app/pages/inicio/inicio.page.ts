@@ -68,6 +68,11 @@ export class InicioPage implements OnInit {
       icon: 'hammer-outline',
       name: 'Ingreso de Datos',
       redirectTo: '/input'
+    },
+    {
+      icon: 'list-outline',
+      name: 'Listas',
+      redirectTo: '/list'
     }
 
 
