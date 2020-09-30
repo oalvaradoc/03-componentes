@@ -9,6 +9,8 @@ export class ListReorderPage implements OnInit {
 
   personajes: string[] = ['Personaje 1', 'Personaje 2', 'Personaje 3', 'Personaje 4'];
 
+  reorderDisable = true;
+
   constructor() { }
 
   ngOnInit() {
