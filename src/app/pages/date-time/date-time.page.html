@@ -27,6 +27,12 @@
                 <ion-datetime display-format="YYYY" min="2015" max="2025"></ion-datetime>
             </ion-item>
         </ion-item>
+        <ion-item>
+            <ion-item>
+                <ion-label>Opciones Custom</ion-label>
+                <ion-datetime [pickerOptions]="customPickerOptions" [yearValues]="customYearValues"></ion-datetime>
+            </ion-item>
+        </ion-item>
 
     </ion-list>
 </ion-content>
