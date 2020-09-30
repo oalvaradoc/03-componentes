@@ -25,8 +25,7 @@ export class DateTimePage implements OnInit {
         }
       }
     ]
-  }
-
+  };
 
   constructor() { }
 
