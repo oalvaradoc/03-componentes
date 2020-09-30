@@ -21,7 +21,7 @@
     {
         "icon": "card-outline",
         "name": "Cartas",
-        "redirectTo": "/cart"
+        "redirectTo": "/card"
     },
     {
         "icon": "checkmark-circle-outline",
