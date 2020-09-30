@@ -58,7 +58,19 @@ export class InicioPage implements OnInit {
       icon: 'grid-outline',
       name: 'Grilla',
       redirectTo: '/grid'
+    },
+    {
+      icon: 'infinite-outline',
+      name: 'Scroll Infinito',
+      redirectTo: '/infinite'
+    },
+    {
+      icon: 'hammer-outline',
+      name: 'Ingreso de Datos',
+      redirectTo: '/input'
     }
+
+
 
   ];
 
