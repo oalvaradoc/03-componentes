@@ -17,6 +17,7 @@ export class LoadingPage implements OnInit {
 
   mostrarLoading(){
     this.presentLoading('Hola Mundo Cargando');
+    // this.presentLoadingWithOptions();
     setTimeout(() => {
       this.loading.dismiss();
     }, 2000);
