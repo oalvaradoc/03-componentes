@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListReorderPage implements OnInit {
 
-  personajes: string[] = ['Personaje 1', 'Personaje 2', 'Personaje 3', 'Personaje 4'];
+  personajes: string[] = ['Personaje 1', 'Personaje 2', 'Personaje 3', 'Personaje 4', 'Personaje 5', 'Personaje 6', 'Personaje 7'];
 
   reorderDisable = true;
 
