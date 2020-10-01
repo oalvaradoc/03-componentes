@@ -82,5 +82,15 @@
         "icon": "code-working-outline",
         "name": "Barras de Progreso",
         "redirectTo": "/progress"
+    },
+    {
+        "icon": "arrow-down-circle-outline",
+        "name": "Refrescar Pagina",
+        "redirectTo": "/refresher"
+    },
+    {
+        "icon": "search-outline",
+        "name": "Buscar",
+        "redirectTo": "/search"
     }
 ]

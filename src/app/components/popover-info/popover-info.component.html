@@ -6,6 +6,12 @@
         <ion-label>{{ i + 1 }}</ion-label>
     </ion-item>
 
+    <ion-list>
+        <ion-item *ngFor="let item of items; let i = index">
+            <ion-label>Item: {{i+1}}</ion-label>
+        </ion-item>
+    </ion-list>
+
     <ion-item>
         <ion-label>Prueba 1</ion-label>
     </ion-item>
